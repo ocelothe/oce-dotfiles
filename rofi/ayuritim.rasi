@@ -7,7 +7,7 @@
 // define colors etc.
 * {
     bg: #0d1017;
-    hv: #161a24;
+    hv: #172e51;
     primary: #292f3f;  // TokyoNight bright black
     ug: #0B2447;
     font: "Pragmasevka Nerd Font 11";

@@ -19,9 +19,9 @@ Uploaded:
 - ✔️ GTK theme
 - ✔️ Konsole theme
 - ✔️ Klassy theme
+- ✔️ QT/KDE color scheme
 
 To upload:
-- 🔜QT/KDE color scheme
 - 🔜Rofi config.
 - 🔜 Firefox css files
 - 🔜 Conky widget

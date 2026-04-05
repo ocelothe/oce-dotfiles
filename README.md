@@ -1,5 +1,15 @@
 # oce-dotfiles
-My personal dotfiles.
+My personal dotfiles. Mainly for KDE Plasma, but GTK theme should work well with GTK desktops/WMs. This theme is inspired and based on Aritim Dark theme and is using [Ayu color theme](https://github.com/ayu-theme/ayu-colors?tab=readme-ov-file) (hence the name)
+Also, check out my [wallpaper collection](https://github.com/ocelothe/wallpaper-collection) if you like my wallpaper set.
+
+Other elements of the rice (not made by me):
+- [Adwaita++ icons](https://github.com/Bonandry/adwaita-plus)
+- [Kara Desktop Switcher](https://github.com/dhruv8sh/kara)
+- [KDE Thermal Monitor Plasmoid](https://github.com/olib14/thermalmonitor)
+- [Plasma's Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
+- [Bibata Original Classic cursor](https://store.kde.org/p/1914826)
+- [Roboto Condensed Font](https://fonts.google.com/specimen/Roboto+Condensed)
+- [Pragmasevka Nerd Font](https://github.com/shytikov/pragmasevka)
 
 Uploaded:
 - ✔️ GTK theme
@@ -10,3 +20,4 @@ To upload:
 - 🔜QT/KDE color scheme
 - 🔜Rofi config.
 - 🔜 Firefox css files
+- 🔜 Conky widget

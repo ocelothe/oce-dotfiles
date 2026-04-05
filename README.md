@@ -20,8 +20,8 @@ Uploaded:
 - ✔️ Konsole theme
 - ✔️ Klassy theme
 - ✔️ QT/KDE color scheme
+- ✔️ Rofi config
 
 To upload:
-- 🔜Rofi config.
 - 🔜 Firefox css files
 - 🔜 Conky widget

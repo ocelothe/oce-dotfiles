@@ -1,0 +1,26 @@
+#root.root {--tabs-margin: 0px;}
+#root.root {--tabs-font: 14px sans-serif;}
+#root.root {--tabs-count-font: 12px sans-serif;}
+#root.root {--tabs-inner-gap: 2px;}
+
+
+
+#root.root {--general-margin: 0px;}
+#root.root {--general-border-radius: 0px;}
+
+.Tab[data-active="true"] .body {
+    border: 2px solid #5A6378 !important;
+    border-radius: 0px;
+}
+
+.NavigationBar .main-items .nav-item[data-class="panel"] .name-box {
+    border-width: 2px !important;
+}
+
+#root[data-act-el-color-scheme="dark"] {
+--active-el-shadow: none;
+}
+
+.NavigationBar .nav-item[data-active="true"] {
+    border: 1px solid 5A6378 !important;
+}

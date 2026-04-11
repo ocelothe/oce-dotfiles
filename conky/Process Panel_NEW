@@ -1,0 +1,88 @@
+conky.config = {
+    use_xft = true,
+    xftalpha = 0.8,
+    update_interval = 1.0,
+    total_run_times = 0,
+    own_window = true,
+    own_window_transparent = false,
+    own_window_argb_visual = true,
+    own_window_argb_value = 115,
+    own_window_type = 'normal',
+    own_window_class = 'conky-semi',
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    background = false,
+    double_buffer = true,
+    imlib_cache_size = 0,
+    no_buffers = true,
+    uppercase = false,
+    cpu_avg_samples = 2,
+    override_utf8_locale = true,
+
+    -- placement
+    alignment = 'top_right',
+    gap_x = 20,
+    gap_y = 20,
+
+    -- default drawing
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = false,
+    default_bar_width = 150, default_bar_height = 5,
+    default_graph_width = 150, default_graph_height = 12,
+    default_gauge_width = 20, default_gauge_height = 20,
+
+    -- colors
+    font = 'Pragmasevka Nerd Font:size=10',
+    default_color = '81a1c1',
+    color1 = '81a1c1',
+    color2 = 'ebcb8b',
+    color3 = 'e5e9f0 ',
+    color3 = 'd8dee9',
+    color4 = '8fbcbb',
+    color5 = 'a3be8c',
+    color6 = 'bf616a',
+    color7 = '5e81ac',
+
+    -- layouting
+    template0 = [[${font Roboto Condensed:bold:size=12}${color2}\1 ${color1}${hr 2}${font}]],
+    template1 = [[${color1}\1]],
+    template2 = [[${goto 180}${color}]],
+    template3 = [[${goto 180}${color}${alignr}]],
+    template4 = [[${color4}]],
+    template5 = [[${color5}\1]],
+    template6 = [[${color6}\1]],
+};
+
+conky.text = [[
+${color7}${hr}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1} ${font Pragmasevka Nerd Font:size=10}${color1}Date: ${template3}$color3${time %d/%m/%Y}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1} ${font Pragmasevka Nerd Font:size=10}${color1}Time: ${template3}$color3${time %T}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1}󰔛 ${font Pragmasevka Nerd Font:size=10}${color1}Uptime: ${template3}$color3${uptime}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1} ${font Pragmasevka Nerd Font:size=10}${color1}Hostname: ${template3}$color3${nodename}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1} ${font Pragmasevka Nerd Font:size=10}${color1}Batt: ${template3}$color3${battery_percent}%
+${color7}${hr}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1} ${font Pragmasevka Nerd Font:size=10}${color1} CPU ${template3}$color3${freq_g}GHz
+${template3}$color3${cpu cpu0}% used
+
+${template4}1 - ${top name 1} $alignr$color3 ${top cpu 1}%
+${template4}2 - ${top name 2} $alignr$color3 ${top cpu 2}%
+${template4}3 - ${top name 3} $alignr$color3 ${top cpu 3}%
+${color7}${hr}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1} ${font Pragmasevka Nerd Font:size=10}${color1} Memory ${template3}$color3${mem} / ${memmax}
+${template3}$color3${memperc}% used
+
+${template4}1 - ${top_mem name 1} $alignr$color3 ${top_mem mem_res 1}
+${template4}2 - ${top_mem name 2} $alignr$color3 ${top_mem mem_res 2}
+${template4}3 - ${top_mem name 3} $alignr$color3 ${top_mem mem_res 3}
+${color7}${hr}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1}󱛟 ${font Pragmasevka Nerd Font:size=10}${color1} /  ${template3}$color3${fs_used /} / ${fs_size /}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1}󱛟 ${font Pragmasevka Nerd Font:size=10}${color1} T7 ${template3}$color3${fs_used /run/media/oce/T7} / ${fs_size /run/media/oce/T7}
+${color7}${hr}
+${if_existing /proc/net/route wlan0}\
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color1}󱘖 ${font Pragmasevka Nerd Font:size=10}${color1}IP: ${template3}$color3${addr wlo1}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color5} ${font Pragmasevka Nerd Font:size=10}${color5}Download:$alignr${downspeed wlo1}
+${template3}${downspeedgraph wlo1}
+${font JetBrainsMono Nerd Font:weight=Bold:size=12}${color6} ${font Pragmasevka Nerd Font:size=10}${color6}Upload:$alignr${upspeed wlo1}
+${template3}${upspeedgraph wlo1}
+]];

@@ -1,4 +1,4 @@
-<img width="531" height="125" alt="ascii-art-text" src="https://github.com/user-attachments/assets/a8d97af6-e701-46e3-85b9-f4ae322cdb23" />
+<p align="center"> <img width="531" height="125" alt="ascii-art-text" src="https://github.com/user-attachments/assets/a8d97af6-e701-46e3-85b9-f4ae322cdb23" />
 
 # oce-dotfiles
 My personal dotfiles. Mainly for KDE Plasma, but GTK theme should work well with GTK desktops/WMs. This theme is inspired and based on Aritim Dark theme and is using [Ayu color theme](https://github.com/ayu-theme/ayu-colors?tab=readme-ov-file) (hence the name)

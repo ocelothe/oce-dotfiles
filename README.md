@@ -7,6 +7,11 @@ Also, check out my [wallpaper collection](https://github.com/ocelothe/wallpaper-
 - Copy SideberyStylus.css into your Sidebery's style editor
 - Make new Stylus style and paste sharpCornersStylus.css contents into it, then save.
 
+## About conky widget:
+- I highly recommend [Conky Manager 2](https://github.com/zcot/conky-manager2) to help you manage your conkys.
+- You **will** have to customize this config a bit - add your disks/wifi card ID for it to work
+- You **NEED** to install [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip) for icons to work properly.
+
 Other elements of the rice (not made by me):
 ## Icons
 - [Adwaita++ icons](https://github.com/Bonandry/adwaita-plus)
@@ -27,7 +32,7 @@ Uploaded:
 - ✔️ QT/KDE color scheme
 - ✔️ Rofi config
 - ✔️ Firefox css files
+- ✔️ Conky widget
 
-To upload:
-
-- 🔜 Conky widget
+Coming (maybe) soon:
+- Kvantum theme

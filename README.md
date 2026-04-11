@@ -2,6 +2,11 @@
 My personal dotfiles. Mainly for KDE Plasma, but GTK theme should work well with GTK desktops/WMs. This theme is inspired and based on Aritim Dark theme and is using [Ayu color theme](https://github.com/ayu-theme/ayu-colors?tab=readme-ov-file) (hence the name)
 Also, check out my [wallpaper collection](https://github.com/ocelothe/wallpaper-collection) if you like my wallpaper set.
 
+## How to install Firefox styles:
+- Copy userChrome.css into your browser profile's **chrome** folder.
+- Copy SideberyStylus.css into your Sidebery's style editor
+- Make new Stylus style and paste sharpCornersStylus.css contents into it, then save.
+
 Other elements of the rice (not made by me):
 ## Icons
 - [Adwaita++ icons](https://github.com/Bonandry/adwaita-plus)
@@ -21,7 +26,8 @@ Uploaded:
 - ✔️ Klassy theme
 - ✔️ QT/KDE color scheme
 - ✔️ Rofi config
+- ✔️ Firefox css files
 
 To upload:
-- 🔜 Firefox css files
+
 - 🔜 Conky widget

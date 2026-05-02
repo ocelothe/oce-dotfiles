@@ -21,6 +21,7 @@ Other elements of the rice (not made by me):
 - [Kara Desktop Switcher](https://github.com/dhruv8sh/kara)
 - [KDE Thermal Monitor Plasmoid](https://github.com/olib14/thermalmonitor)
 - [Plasma's Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
+- [KVitals](https://github.com/yassine20011/kvitals)
 ## Cursor
 - [Bibata Original Classic cursor](https://store.kde.org/p/1914826)
 ## Fonts

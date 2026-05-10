@@ -36,6 +36,7 @@ Uploaded:
 - ✔️ Rofi config
 - ✔️ Firefox css files
 - ✔️ Conky widget
+- ✔️ Custom Fastfetch config
 
 Coming (maybe) soon:
 - Kvantum theme

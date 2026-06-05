@@ -37,6 +37,7 @@ Uploaded:
 - ✔️ Firefox css files
 - ✔️ Conky widget
 - ✔️ Custom Fastfetch config
+- ✔️ Fish config
 
 Coming (maybe) soon:
 - Kvantum theme
